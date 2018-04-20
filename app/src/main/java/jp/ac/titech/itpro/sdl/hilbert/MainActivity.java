@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button decButton, incButton;
     private final static int MAX_ORDER = 9;
     private int order = 1;
-    private String KEY_ORDER;
+    private final static String KEY_ORDER = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
